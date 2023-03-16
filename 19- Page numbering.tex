@@ -1,0 +1,28 @@
+\documentclass{memoir}
+
+\usepackage{lipsum}
+
+\begin{document}
+
+\pagenumbering{roman}
+\chapter{Memoir I}
+\lipsum[10-15]
+
+\chapter{Memoir II}
+\lipsum[10]
+
+\pagenumbering{arabic}
+\setcounter{page}{5} % <----- page numbering counter starts with 5
+\chapter{Memoir III}
+\lipsum[10]
+
+\pagenumbering{alph}
+\chapter{Memoir IV}
+\lipsum[10]
+
+\pagenumbering{Alph}
+\chapter{Memoir V}
+\lipsum[10]
+
+
+\end{document}
